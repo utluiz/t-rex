@@ -1,4 +1,6 @@
-spread-pojo
+Trex
 ===========
 
-Easily generates Excel spreadsheets from templates
+> The (best) Report Excel generator!
+
+
