@@ -3,6 +3,9 @@ package br.com.starcode.trex;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ResourceBundle;
+
+import br.com.starcode.trex.util.ResourceBundleMap;
 
 /**
  * Builder to define the "variables" available to the interpreter during spreadsheet values parsing 
@@ -33,6 +36,9 @@ public class TrexModelBuilder {
 	}
 
 	protected TrexModelBuilder add(String name, Object value) {
+	    if (value instanceof ResourceBundle) {
+	        value = new ResourceBundleMap((ResourceBundle) value);
+	    }
 		variables.put(name, value);
 		return this;
 	}
@@ -41,5 +47,5 @@ public class TrexModelBuilder {
 		variables.putAll(map);
 		return this;
 	}
-
+	
 }

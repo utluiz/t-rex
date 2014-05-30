@@ -8,6 +8,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Map;
 
+import br.com.starcode.trex.util.StringBuilderOutputStream;
+
 /**
  * Final step of builder pattern. 
  * It actually outputs the content to the destination calling the proper spreadsheet parser.

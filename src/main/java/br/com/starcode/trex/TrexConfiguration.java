@@ -19,6 +19,7 @@ public class TrexConfiguration {
 		}
 		this.interpreter = interpreter;
 		this.parser = parser;
+		this.additionalModifications = additionalModifications;
 	}
 
 	public Interpreter interpreter() {

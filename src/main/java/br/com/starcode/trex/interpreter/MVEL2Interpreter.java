@@ -24,8 +24,8 @@ import br.com.starcode.trex.types.Range;
  */
 public class MVEL2Interpreter implements Interpreter {
 
-	private Map<String, CompiledTemplate> templateCompiledCache;
-	private Map<String, CompiledExpression> expressionCompiledCache;
+	protected Map<String, CompiledTemplate> templateCompiledCache;
+	protected Map<String, CompiledExpression> expressionCompiledCache;
 	
 	public MVEL2Interpreter() {
 	}

@@ -1,4 +1,4 @@
-package br.com.starcode.trex;
+package br.com.starcode.trex.util;
 
 import java.io.IOException;
 import java.io.OutputStream;
