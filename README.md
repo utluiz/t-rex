@@ -1,4 +1,4 @@
-T-Rex
+T-Rex [![Build Status](https://travis-ci.org/utluiz/parCSSer.svg?branch=master)](https://travis-ci.org/utluiz/parCSSer)
 ===========
 
 > The (best) Report Excel generator!
