@@ -22,6 +22,7 @@ public class TrexTemplateBuilder {
 
 	/**
 	 * Builder method that navigates to model builder
+	 * @return Next step of DSL: model builder
 	 */
 	public TrexModelBuilder model() {
 		return new TrexModelBuilder(config, input);

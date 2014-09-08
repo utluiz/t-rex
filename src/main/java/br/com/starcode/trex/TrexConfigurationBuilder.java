@@ -22,6 +22,7 @@ public class TrexConfigurationBuilder {
 
 	/**
 	 * Builder method that navigates to template builder
+	 * @return Next builder of DSL (template builder)
 	 */
 	public TrexTemplateBuilder template() {
 		return new TrexTemplateBuilder(new TrexConfiguration(interpreter, parser, additionalModifications));

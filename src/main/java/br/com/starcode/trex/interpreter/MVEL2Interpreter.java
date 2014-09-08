@@ -92,8 +92,8 @@ public class MVEL2Interpreter implements Interpreter {
 
 	/**
 	 * Parses a for statement like:
-	 * @for (item : list) 3 rows 2 columns
-	 * @for (item : list) 2 col 3 row 
+	 * \@for (item : list) 3 rows 2 columns
+	 * \@for (item : list) 2 col 3 row 
 	 */
 	public ForStatementData parseForStatement(String expression) {
 		

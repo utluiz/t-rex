@@ -25,6 +25,7 @@ public class TrexModelBuilder {
 
 	/**
 	 * Builder method that navigates to output generator "final" class
+	 * @return Next step of DSL: Generator
 	 */
 	public TrexGenerator output() {
 		return new TrexGenerator(config, input, context, variables);
